@@ -1,67 +1,70 @@
 # DSA in C — Semester 3
 
-A collection of **Data Structures and Algorithms (DSA) programs written in C** for Semester 3 practice, lab work, assignments, and mid-semester preparation.
+This repository contains the C programs I am doing for my **Semester 3 Data Structures and Algorithms** course.
 
-The repository focuses on building a strong understanding of arrays, searching, sorting, pointers, recursion, stacks, queues, and related problem-solving techniques.
+I have added the programs from my lab work, assignments, practice questions, and exam preparation. The main purpose of this repository is to keep all my DSA programs in one place and practice them whenever needed.
 
-## 📚 Topics Covered
+## Topics
 
-### Basics & Practice
-- For-loop practice
-- Nested-loop pattern printing
-- Pointer basics and pointer arithmetic
-- Data structure identification
+### Basics
+
+* For loops
+* Nested loops and patterns
+* Pointers
+* Pointer arithmetic
+* Basic data structure questions
 
 ### Arrays
-- 1D array traversal
-- 2D array traversal
-- Accessing an array element using pointers
-- Traversing arrays using pointers
-- Inserting an element into an array
-- Deleting an element from an array
-- Menu-driven array operations
+
+* 1D arrays
+* 2D arrays
+* Array traversal
+* Array operations using pointers
+* Inserting an element
+* Deleting an element
+* Menu-driven array programs
 
 ### Searching
-- Linear search
-- Linear search using pointers
-- Iterative binary search
-- Recursive binary search
+
+* Linear search
+* Linear search using pointers
+* Binary search (iterative)
+* Binary search (recursive)
 
 ### Sorting
-- Bubble sort
-- Optimized / modified bubble sort
-- Selection sort
-- Bidirectional / modified selection sort
-- Insertion sort
-- Merge sort
-- Quick sort
-- Combined sorting and merging practice
-- Case-based sorting problems
+
+* Bubble sort
+* Modified bubble sort
+* Selection sort
+* Modified selection sort
+* Insertion sort
+* Merge sort
+* Quick sort
+* Sorting and merging problems
+* Case-based sorting questions
 
 ### Recursion
-- Factorial using iteration
-- Factorial using recursion
+
+* Factorial using loop
+* Factorial using recursion
 
 ### Data Structures
-- Stack implementation
-- Queue implementation
+
+* Stack
+* Queue
 
 ### Array Address Calculation
-- 2D array address calculation
-- Row-major order
-- Column-major order
-- Menu-driven address calculation practice
 
-### Exam Practice
-- Mid-semester sorting question practice
-- Combined sorting and merging problem
-- Assignment-wise practice questions
+* 2D array address calculation
+* Row-major order
+* Column-major order
+* Menu-driven address calculation
 
-## 🗂️ Repository Structure
+## Files
 
-The source files use short, descriptive names so that the purpose of each program can be identified quickly.
+The programs are kept as separate `.c` files so that they are easy to find and run.
 
-Examples:
+Some examples:
 
 ```text
 array_element_insertion.c
@@ -77,67 +80,58 @@ stack_implementation.c
 queue_implementation.c
 ```
 
-The complete set of programs is included in the repository.
+There are more programs in the repository apart from these.
 
-## 🛠️ How to Run
+## Running the Programs
 
-Make sure a C compiler such as **GCC** is installed.
+You just need a C compiler. I am using **GCC**.
 
-Compile a program:
+For example:
 
 ```bash
 gcc binary_search_iterative.c -o binary_search_iterative
 ```
 
-Run it on Linux/macOS:
+Then run it using:
+
+### Linux / macOS
 
 ```bash
 ./binary_search_iterative
 ```
 
-On Windows with MinGW:
+### Windows
 
 ```bash
 binary_search_iterative.exe
 ```
 
-You can use the same process for the other `.c` files.
+The same method can be used for the other programs.
 
-## 💡 Learning Goals
+## Why I Made This Repository
 
-This repository is intended to help practice:
+I made this repository mainly for my **Semester 3 DSA practice**.
 
-- Understanding how data structures work internally
-- Writing algorithms using C
-- Improving problem-solving skills
-- Understanding time and space complexity
-- Practicing searching and sorting algorithms
-- Using functions, arrays, pointers, and recursion
-- Preparing for DSA practicals and examinations
+It helps me keep track of the programs I have done and makes it easier to revise before practicals, assignments, and exams.
 
-## 📌 Notes
+The repository also helps me practice:
 
-- The programs are kept focused on the concepts they demonstrate.
-- Variable names have been updated to use clearer and more descriptive identifiers.
-- File names have also been organized around the topic of each program.
-- The original program logic and algorithmic approach have been preserved.
-- Some programs are intentionally written as classroom/practical exercises rather than production-ready implementations.
+* Arrays and pointers
+* Searching algorithms
+* Sorting algorithms
+* Recursion
+* Basic data structures
+* Writing C programs
+* Understanding how different algorithms work
 
-## 🚀 Future Topics
+## Notes
 
-The repository can be extended with:
+Most of these programs are written as **college practice/lab programs**, so they are kept simple and focused on the concept being taught.
 
-- Linked Lists
-- Circular Linked Lists
-- Doubly Linked Lists
-- Trees
-- Binary Search Trees
-- Heaps
-- Graphs
-- Hashing
-- Advanced searching and sorting
-- Time and space complexity analysis
+The file names and variable names have been changed/organized to make the programs easier to identify, while keeping the original logic of the programs the same.
+
+More programs will be added as I cover new topics in DSA.
 
 ---
 
-**Semester 3 • Data Structures & Algorithms • C Programming**
+**Semester 3 | Data Structures & Algorithms | C**
